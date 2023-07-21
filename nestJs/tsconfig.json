@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2019",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "src",
+    "paths": {
+      "@config/*": ["config/*"],
+      "@helpers/*": ["helpers/*"],
+      "@entities/*": ["entities/*"],
+      "@modules/*": ["modules/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@repositories/*": ["repositories/*"],
+      "@utils/*": ["utils/*"],
+      "@common/*": ["common/*"],
+      "@test/*": ["test/*"],
+      "@exceptions/*": ["exceptions/*"]
+    },
+    "incremental": true,
+    "skipLibCheck": true
+  }
+}
